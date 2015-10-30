@@ -1,0 +1,69 @@
+/*General Declarations*/
+body {
+	line-height: 1.5em;
+
+}
+
+h1 {
+	font-family:"Lantinghei SC";
+}
+p {
+	font-family:"Bodoni 72";
+}
+
+
+/*introduction*/
+
+.intro{
+	height: 35em;
+	background-color: #f8f8f8;
+}
+.intro .col-xs-4 img {
+height: 30.5em;
+margin-top: 6rem;	
+}
+.intro .col-xs-6 {
+padding: 6rem 0.5rem 2rem 3rem;
+
+}
+ .intro .col-xs-6 {
+ 	text-align: center;
+
+ }
+
+.intro h1 {
+	display: inline-block;
+	font-family: "Lantinghei SC";
+	font-size: 5rem;
+	font-weight: normal;
+}
+.intro h2 {
+	font-family: "Bodoni 72";
+	margin-top: -3rem;
+}
+
+.intro button {
+	margin-top: 3rem;
+	background-color: orange;
+	color: white;
+	border: none;
+	padding: 2rem 3rem;
+	border-radius: 7%;
+}
+
+/*About Me*/
+.about-me {
+	height: 35em;
+	background-color: #ffb800;
+}
+
+.about-me .col-xs-4 img {
+	float: right;
+}
+
+.about-me {
+	color:white;
+	text-align: left;
+}
+
+
