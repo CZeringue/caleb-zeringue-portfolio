@@ -25,6 +25,17 @@ p {
 	background-color: #f8f8f8;
 }
 
+<<<<<<< b7cdcd0f3475fc9351c734c9adb6be018f4dc260
+=======
+.intro hr {
+	 width: 1px; 
+	 height: 3.5em; 
+	 display: inline-block; 
+	background-color:#747474;
+	padding: 0;
+	margin:0;
+}
+>>>>>>> typography fixes
 .intro .col-xs-4 img {
 height: 30.5em;
 margin-top: 6rem;
@@ -147,7 +158,10 @@ footer i {
 	color:grey;
 }
 
+<<<<<<< b7cdcd0f3475fc9351c734c9adb6be018f4dc260
 
+=======
+>>>>>>> typography fixes
 footer i:hover {
 color: orange;
 }
