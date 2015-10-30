@@ -1,26 +1,43 @@
 /*General Declarations*/
 body {
 	line-height: 1.5em;
-
-}
-
-h1 {
 	font-family:"Lantinghei SC";
+	font-weight: normal;
 }
+
 p {
 	font-family:"Bodoni 72";
+	font-size: 1.2em;
 }
 
-
+.center {
+	max-width:58.750em;
+	min-width:45em;
+	margin: auto auto;
+}
+.row {
+	margin: 0;
+	padding:0;
+}
 /*introduction*/
 
 .intro{
 	height: 35em;
 	background-color: #f8f8f8;
 }
+
+.intro hr {
+	 width: 1px; 
+	 height: 3.5em; 
+	 display: inline-block; 
+	background-color:black;
+	padding: 0;
+	margin:0;
+}
 .intro .col-xs-4 img {
 height: 30.5em;
-margin-top: 6rem;	
+margin-top: 6rem;
+padding-bottom: -15px;
 }
 .intro .col-xs-6 {
 padding: 6rem 0.5rem 2rem 3rem;
@@ -64,6 +81,72 @@ padding: 6rem 0.5rem 2rem 3rem;
 .about-me {
 	color:white;
 	text-align: left;
+	font-family:"Lantinghei SC";
 }
 
+/*Projects*/
+.projects {
+height: 35em;
+background-color: #f8f8f8;
+text-align: center;
+}
 
+.projects h1 {
+	padding-top: 2em;
+	color:black;
+}
+.projects ul {
+	list-style: none;
+}
+
+.projects li {
+display: inline-block;
+padding: 2em 2em;
+-webkit-filter: grayscale(1);
+ transition: -webkit-filter 0.5s ease;
+ cursor: pointer;
+}
+
+.projects li:hover {
+	    -webkit-filter: none;
+
+}
+.projects img {
+	max-height:10em;
+}
+.projects h1,h3 {
+		font-family: "Lantinghei SC";
+		font-weight:normal;
+}
+.projects h3 {
+	font-weight: lighter;
+
+}
+.projects h1 {
+	font-size: 5rem;
+	
+}
+
+/*footer*/
+footer {
+	text-align: center;
+	height:5em;
+}
+footer ul {
+	list-style: none;
+	padding: 2em 0em;
+}
+
+footer li {
+	display: inline;
+	padding: 0em 2em;
+}
+
+ i {
+ 	transition: color 0.5s ease;
+	color:grey;
+}
+
+i:hover {
+color: orange;
+}
