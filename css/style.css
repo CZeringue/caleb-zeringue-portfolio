@@ -1,4 +1,7 @@
 /*General Declarations*/
+html {
+	height: 100%;
+}
 body {
 	line-height: 1.5em;
 	font-family:"Lantinghei SC";
@@ -12,7 +15,6 @@ p {
 
 .center {
 	max-width:58.750em;
-	min-width:45em;
 	margin: auto auto;
 }
 .row {
@@ -25,8 +27,7 @@ p {
 	background-color: #f8f8f8;
 }
 
-<<<<<<< b7cdcd0f3475fc9351c734c9adb6be018f4dc260
-=======
+
 .intro hr {
 	 width: 1px; 
 	 height: 3.5em; 
@@ -35,17 +36,16 @@ p {
 	padding: 0;
 	margin:0;
 }
->>>>>>> typography fixes
+
 .intro .col-xs-4 img {
 height: 30.5em;
-margin-top: 6rem;
-padding-bottom: -15px;
+margin-top: 6em;
 }
-.intro .col-xs-6 {
+.intro .col-xs-4 .col-sm-6 {
 padding: 6rem 0.5rem 2rem 3rem;
 
 }
- .intro .col-xs-6 {
+ .intro .col-xs-4 .col-sm-6 {
  	text-align: center;
 
  }
@@ -71,6 +71,7 @@ padding: 6rem 0.5rem 2rem 3rem;
 	padding: 2rem 3rem;
 	border-radius: 7%;
 	transition: background-color 0.8s ease;
+	min-width: 150px;
 }
 
 .intro button:hover {
@@ -94,12 +95,10 @@ padding: 6rem 0.5rem 2rem 3rem;
 
 /*Projects*/
 .projects-wrapper {
-height: 35em;
+
 background-color: #f8f8f8;
 }
 .projects {
-
-
 text-align: center;
 }
 
@@ -114,16 +113,18 @@ text-align: center;
 .projects li {
 display: inline-block;
 padding: 2em 2em;
--webkit-filter: grayscale(1);
- transition: -webkit-filter 0.5s ease;
+
  cursor: pointer;
 }
 
-.projects li:hover {
-	-webkit-filter: none;
-}
 .projects img {
 	max-height:10em;
+	-webkit-filter: grayscale(1);
+ transition: -webkit-filter 0.5s ease;
+}
+
+.projects img:hover {
+	-webkit-filter:none;
 }
 .projects h1,h3 {
 		font-family: "Lantinghei SC";
@@ -135,7 +136,6 @@ padding: 2em 2em;
 }
 .projects h1 {
 	font-size: 5rem;
-	
 }
 
 /*footer*/
@@ -158,11 +158,29 @@ footer i {
 	color:grey;
 }
 
-<<<<<<< b7cdcd0f3475fc9351c734c9adb6be018f4dc260
-
-=======
->>>>>>> typography fixes
 footer i:hover {
 color: orange;
 }
 
+
+/*Media Queries*/
+
+@media (max-width:632px) {
+.about-me h1 {
+	font-size: 1.4em;
+}
+.about-me p {
+	font-size: 0.8em;
+}
+.intro h1 {
+		font-size: 2em;
+}
+.intro h2 {
+	font-size: 1.5em;
+}
+.intro .col-xs-4 img {
+height: 25.5em;
+margin-top: 6em;
+}
+
+}
