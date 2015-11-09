@@ -1,7 +1,5 @@
 /*General Declarations*/
-html {
-	height: 100%;
-}
+
 body {
 	line-height: 1.5em;
 	font-family:"Lantinghei SC";
@@ -9,7 +7,7 @@ body {
 }
 
 p {
-	font-family:"Bodoni 72";
+	font-family: 'Prociono', serif;
 	font-size: 1.2em;
 }
 
@@ -23,7 +21,7 @@ p {
 }
 /*introduction*/
 
-.intro{
+ .row intro {
 	background-color: #f8f8f8;
 }
 
@@ -37,16 +35,15 @@ p {
 	margin:0;
 }
 
-.intro .col-xs-4 img {
+.intro .col-xs-5 img {
 height: 30.5em;
 margin-top: 6em;
 }
-.intro .col-xs-4 .col-sm-6 {
-padding: 6rem 0.5rem 2rem 3rem;
 
-}
- .intro .col-xs-4 .col-sm-6 {
+ .intro .col-xs-6 {
+ 	padding: 6em 2em 2em 3em;
  	text-align: center;
+ 	margin-left: 2em;
 
  }
 
@@ -55,12 +52,14 @@ padding: 6rem 0.5rem 2rem 3rem;
 	font-weight: normal;
 	line-height: 0.8em;
 	font-size: 3em;
+
 }
 .intro h2 {
 	font-family: "Bodoni 72";
 	font-size:2.5em;
+
 }
-.intro span {
+.intro  span {
 	color: grey;
 }
 .intro button {
@@ -181,6 +180,9 @@ color: orange;
 .intro .col-xs-4 img {
 height: 25.5em;
 margin-top: 6em;
+}
+.intro .col-xs-4 .col-sm-6 {
+	margin-left: 2em;
 }
 
 }
